@@ -11,10 +11,8 @@
     Private Sub Inicialitzacions()
         joc = New C3EnRatlla()
 
-        ' Agafem totes les etiquetes
         labels = New List(Of System.Windows.Forms.Label) From {Label0, Label1, Label2, Label3, Label4, Label5, Label6, Label7, Label8}
 
-        ' Netejar text
         For Each lbl In labels
             lbl.Text = ""
         Next
